@@ -27,7 +27,7 @@ export default function FormulirKlaim() {
           <div className="grid grid-cols-2 gap-1 ">
             <span className="text-m text-mn font-semibold">
               <p>No. Polisi</p>
-              <p>Name Tertanggung</p>
+              <p>Nama Tertanggung</p>
               <p>No. Polis</p>
               <p>Periode</p>
               <p>Nilai Pertanggungan</p>
@@ -50,10 +50,10 @@ export default function FormulirKlaim() {
           </div>
         </Card_Forms>
         <Card_Forms>
-          <div className="grid grid-cols-2 gap-1 ">
+          <div className=" ">
             <span className="text-m text-mn font-semibold">
               <p>No. Polisi</p>
-              <p>Name Tertanggung</p>
+              <p>Nama Tertanggung</p>
               <p>No. Polis</p>
               <p>Periode</p>
               <p>Nilai Pertanggungan</p>
@@ -61,17 +61,6 @@ export default function FormulirKlaim() {
               <p>Tahun Pembuatan</p>
               <p>No. Mesin</p>
               <p>No. Rangka</p>
-            </span>
-            <span className="text-m text-label font-semibold">
-              <p>B 1234 EFG</p>
-              <p>Pajar Pribadi</p>
-              <p>VCL2007001</p>
-              <p>1 Juli 2020-30 Juli 2021</p>
-              <p>Rp 120.000.000</p>
-              <p>Jepang/Honda</p>
-              <p>2019</p>
-              <p>NHX120000</p>
-              <p>MCM24000</p>
             </span>
           </div>
         </Card_Forms>
