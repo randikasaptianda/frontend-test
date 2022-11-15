@@ -52,7 +52,7 @@ export default function FormulirKlaim() {
           <div>
             <p className="text-m text-mn font- mb-2">Nama Pengemudi</p>
             <input placeholder="Masukkan Nama Pengemudi" className="text-m w-full border-b-4 border-b-mn bg-bg focus:outline-none mb-6" />
-            <input placeholder="Silahkan isi hubungan dengan tertanggung" className="text-m w-full border-b-4 border-b-line bg-white focus:outline-none" />
+            <input placeholder="Silahkan isi hubungan dengan tertanggung" className="text-m w-full border-b-4 border-b-line bg-white focus:outline-none mb-6" />
             {/* <Input searchable rules={{ required: true }} placeholder="Masukan Nama Pengemudi"></Input> */}
           </div>
         </Card_Forms>
