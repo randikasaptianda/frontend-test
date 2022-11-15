@@ -1,6 +1,7 @@
-import React from "react";
-import Card_Form from "../base/Card_Form";
-import Card_Forms from "../base/Card_Forms";
+import React from 'react';
+import Card_Form from '../base/Card_Form';
+import Card_Forms from '../base/Card_Forms';
+// import Input from '../form/Input';
 // import { GenIcon } from "react-icons";
 
 export default function FormulirKlaim() {
@@ -19,9 +20,7 @@ export default function FormulirKlaim() {
           </Card_Form>
         </div>
         <div className="p-2 bg-line flex justify-center mb-6">
-          <p className="text-l text-mn font-semibold">
-            Registrasi Klaim: B 1234 EFG
-          </p>
+          <p className="text-l text-mn font-semibold">Registrasi Klaim: B 1234 EFG</p>
         </div>
         <Card_Forms className={`mb-6`}>
           <div className="grid grid-cols-2 gap-1 ">
@@ -50,18 +49,11 @@ export default function FormulirKlaim() {
           </div>
         </Card_Forms>
         <Card_Forms>
-          <div className=" ">
-            <span className="text-m text-mn font-semibold">
-              <p>No. Polisi</p>
-              <p>Nama Tertanggung</p>
-              <p>No. Polis</p>
-              <p>Periode</p>
-              <p>Nilai Pertanggungan</p>
-              <p>Buatan/Merk</p>
-              <p>Tahun Pembuatan</p>
-              <p>No. Mesin</p>
-              <p>No. Rangka</p>
-            </span>
+          <div>
+            <p className="text-m text-mn font- mb-2">Nama Pengemudi</p>
+            <input placeholder="Masukkan Nama Pengemudi" className="text-m w-full border-b-4 border-b-mn bg-bg focus:outline-none mb-6" />
+            <input placeholder="Silahkan isi hubungan dengan tertanggung" className="text-m w-full border-b-4 border-b-line bg-white focus:outline-none" />
+            {/* <Input searchable rules={{ required: true }} placeholder="Masukan Nama Pengemudi"></Input> */}
           </div>
         </Card_Forms>
       </section>
